@@ -19,11 +19,24 @@ body{
 }
 
 form{
-    margin-left: 20%;
-    margin: 5%;
     padding: 20px;
     background: rgba(255, 255, 255, 0.43);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(8.7px);
+}
+
+img{
+    width: 100px;
+}
+
+.bla{
+    display: grid;
+}
+
+#todo{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
 }
