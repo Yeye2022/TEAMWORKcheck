@@ -2,12 +2,13 @@ body{
     margin: 0;
     padding: 0;
     background-color: #9a9b85;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.h1{
-    font-size: ;
-    font-family: ;
-    color: ;
+h1{
+    font-size: 45px;
+    text-align: center;
+    color: #656a56;
 }
 
 .button{
@@ -27,18 +28,49 @@ form{
 }
 
 img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
 }
 
 .bla{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #todo{
-    display: flex;
     margin: 30px;
     align-items: center;
     justify-content: center;
 }
+
+button{
+   color: #f0d9d1;
+   background-color: #d68e97;
+   border-radius: 15px;
+   border: none;
+   font-size: 15px;
+   padding: 8px;
+   position: relative;
+   left: 92%;
+   bottom: -8px;
+   margin: 5px;
+}
+
+ button:hover{
+    color: #d68e97;
+    background-color: #f0d9d1;
+ }
+
+ input{
+    border-radius: 5px;
+    border: solid, #d68e97, 1px;
+    color: #d68e97;
+    
+ }
+
+  .input{
+    border-radius: 5px;
+    border: solid, #d68e97, 1px;
+    color: #d68e97;
+ }
